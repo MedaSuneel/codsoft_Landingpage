@@ -1,0 +1,126 @@
+body{
+    color: #ededed;
+    
+}
+.header{
+    position: fixed;
+    background: red;
+    width: 100%;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+.heading{
+    position: fixed;
+    font-size: 40px;
+    color: white;
+}
+.navbar{
+    margin-left:45%;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 550;
+    margin-left: 35px;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+.navbar a:hover{
+    background-color: aqua;
+}
+.home{
+    position: relative;
+    width: 100%;
+    color: black;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home-content{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.home-content h3{
+    font-size: 32px;
+}
+.home-content h1{
+    font-size: 56px;
+    margin: -3px 0;
+}
+.homelogo{
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.about{
+    display: flex;
+}
+.aboutlogo{
+    margin-bottom: 3%;
+}
+.about-content{
+    color: green;
+    margin-left: 12%;
+}
+.courses{
+    display: flex;
+    
+}
+.courses div{
+    margin-left: 2%;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+}
+.courses button{
+    width: 80%;
+    padding: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+.courses button:hover{
+    background-color: aqua;
+}
+.icons{
+    margin-left: 55px;
+}
+.icons i{
+    display: inline-flex;
+    width: 20px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    padding: 8px;
+    align-items: center;
+    color: black;
+}
+.icons i:hover{
+    background-color: aqua;
+}
+.contact{
+    display: flex;
+}
+.contact pre{
+    color: black;
+    font-size: 15px;
+   
+
+}
+.contact b{
+    font-size: 22px;
+}
